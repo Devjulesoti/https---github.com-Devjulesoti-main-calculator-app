@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(36, 54, 87, 0.87);
+    background-color: hsl(0, 0%, 90%);
     margin: auto;
     box-sizing: border-box;
     padding-top: 30px;
@@ -15,8 +15,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
-    color: white;
-    font-size: 25px;
+    color: rgb(78, 76, 76);
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .switch{
@@ -37,7 +37,7 @@ body{
     left: 2px;
     right: 2px;
     bottom: 8px;
-    background-color: rgb(20, 28, 43);
+    background-color: hsl(0, 5%, 81%);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -79,7 +79,7 @@ input:focus + .slider {
     vertical-align: baseline;
   }
 .output-container{
-    background-color: rgb(20, 28, 43);
+    background-color: rgba(255, 255, 255, 0.637);
     margin-bottom: 15px;
     height: 80px;
     border-radius: 8px;
@@ -90,7 +90,7 @@ input:focus + .slider {
     display: flex;
     justify-content:right;
     align-items: center;
-    color: aliceblue;
+    color: rgb(85, 82, 82);
     padding-right: 10px;
     font-size: 30px;
 
@@ -101,12 +101,13 @@ input:focus + .slider {
     align-items: center;
     flex-wrap: wrap;
     padding: 10px 0 20px 0px;
-    background-color: rgb(32, 45, 68);
+    background-color: hsl(0, 5%, 81%);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+
 }
 .button-container button{
     width: 20%;
@@ -123,23 +124,23 @@ input:focus + .slider {
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
     cursor: pointer;
-    background-color: rgb(247, 247, 243);
+    background-color: hsl(45, 7%, 89%);
     color: rgb(85, 82, 82);
-    box-shadow: 1px 2px rgba(128, 128, 128, 0.726);
+    box-shadow: 1px 2px hsl(185, 58%, 25%);
 }
 .button-container button:hover{
     background-color: rgb(236, 229, 229);
     opacity: 0.9;
 }
 #equals{
-    background-color: rgba(245, 101, 66, 0.925);
+    background-color: rgba(238, 144, 36, 0.925);
     width: 45%;
     color: white;
     font-size: 15px;
 }
 #del-btn{
     color: white;
-    background-color: rgb(153, 183, 238);
+    background-color: rgb(129, 155, 204);
     font-size: 15px;
     letter-spacing: 1px;
     

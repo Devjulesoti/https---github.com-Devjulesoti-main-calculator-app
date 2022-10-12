@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="icon" type="image/x-icon" href="./images/favicon-32x32 (2).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,13 @@
     <main class="calc-container">
         <div class="top-container">
             <div class="calc-logo">calc</div>
-            <div class="toogle-btn">X</div>
+            <div class="toogle-btn">
+                <label id="theme" for="text">THEME</label>
+                <label class="switch" for="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </div>
 
         
